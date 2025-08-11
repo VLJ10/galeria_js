@@ -1,0 +1,33 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: black;
+    color: white;
+    padding-block: 8px;
+}
+
+.galeria{
+    display: columns;
+    columns: 3;
+}
+.galeria img {
+    width: 100%;
+    padding-block: 4px;
+}
+.descricao{
+    width: 100%;
+    height: 100%;
+   
+    
+    z-index: +1;
+    display: grid;
+    columns: 3;
+    position: absolute;
+}
+.descricao p {
+    background-color: black;
+    opacity: 0.3;
+}
